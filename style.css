@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    max-width: 1200px;
+}
+
+.header{
+    background-color: antiquewhite;
+    height: 50px;
+
+}
