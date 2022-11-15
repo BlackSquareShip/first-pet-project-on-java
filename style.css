@@ -27,6 +27,9 @@ hr{
 .header_user_info{
     display: flex;
     margin-left: 20px;
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: 1px 1px 10px  rgba(71, 71, 71, 0.13);
 }
 
 .user_logo_wrapper{
@@ -52,6 +55,7 @@ hr{
 
 .header_name{
     margin: auto 5px;
+    font-family: 'Sono', sans-serif;
     font-size: 20px;
 }
 
@@ -62,3 +66,106 @@ hr{
 .main .container{
     height: 1000px;
 }
+
+.book_img{
+    width: 100%;
+    height: 900px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("images/Book2.jpg");
+}
+
+.book_header{
+    display: flex;
+    padding-top: 30px;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: 'Marck Script', cursive;
+}
+
+.friend_name{
+    font-size: 20px;
+    transform: rotate(-2deg);
+}
+
+.friend_name_two{
+    font-size: 20px;
+    transform: rotate(2deg);
+}
+
+.book_body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+
+    height: 780px;
+    width: 1050px;
+}
+
+.page{
+    width: 510px;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+.message{
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+    width: 100%;
+}
+
+.friend_message::before{
+    content: "– (И)";
+}
+
+.my_message {
+    color: rgb(138, 90, 19);
+}
+
+.my_message::before{
+    content: "– (Я)";
+}
+
+.input_message{
+    margin: 20px 0;
+}
+
+.message_input{
+    height: 30px;
+    width: 75%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 235, 205, 0);
+    border-bottom: 1px solid rgb(243, 189, 107);
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+.message_input:focus{
+    border: none;
+    outline: none;
+}
+
+.message_submit{
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    background-color: #00000007;
+    border-color: aliceblue;
+    font-family: 'Marck Script', cursive;
+    font-size: 22px;
+}
+
+
+.book_footer{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    vertical-align: bottom;
+    margin: 0 auto;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
