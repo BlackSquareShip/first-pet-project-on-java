@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.book{
+    margin: 0 auto;
+    width: 600px;
+    height: 1000px;
+    background-image: url("images/bookKey.jpg");
+    background-repeat: no-repeat;
+}
+
+.form form{
+    margin: auto;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.password_input{
+    height: 25px;
+    width: 150px;
+    padding: 5px;
+    color: #ffb728;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+    border: 2px solid #c4957481;
+    background-color: #c4957498;
+}
+
+.password_input::placeholder{
+    color: #ffb728;
+}
+
+.login_input{
+    width: 240px;
+    height: 25px;
+    align-self: flex-end;
+    color: #ffb728;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+    border: 2px solid #c4957481;
+    background-color: #c4957498;
+}
+
+.login_input::placeholder{
+    color: #ffb728;
+}
+
+.button{
+    width: 80px;
+    height: 30px;
+    align-self: flex-end;
+}

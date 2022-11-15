@@ -87,11 +87,13 @@ hr{
 .friend_name{
     font-size: 20px;
     transform: rotate(-2deg);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
 }
 
 .friend_name_two{
     font-size: 20px;
     transform: rotate(2deg);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
 }
 
 .book_body{
